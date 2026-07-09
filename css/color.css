@@ -76,9 +76,16 @@ color: #477A11;
 .info-300{
     color: #3087DB;
 } 
-.bg-primary-300{
-    background: #C0FA73;
+.white{
+    color: white;
+}
+.bg-primary-100{
+    background: #F5FEE7;
 }
 .bg-primary-200{
     background: #E8FEC5;
 }
+.bg-primary-300{
+    background: #C0FA73;
+}
+

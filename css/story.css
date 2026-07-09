@@ -1,0 +1,31 @@
+.hero{
+  background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-position:center;
+  background-size:cover;
+}
+.header{
+  padding-top: 151px;
+  padding-bottom: 151px;
+}
+.footer{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+ 
+.story-img{
+  width: 100%;
+  display: block;
+}
+.border-right{
+    border-right:1px solid #212529;
+}
+.border-left{
+  border-left:3px solid #DEE2E6;
+}
+ul.course {
+  list-style: disc;
+  padding-left: 20px;
+}
+.a-border-bottom{
+  border-bottom:1px solid #57A203;
+}

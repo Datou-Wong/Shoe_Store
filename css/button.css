@@ -1,56 +1,74 @@
-.but-register{
-    color: white;
-    padding: 12px 24px;
-    border:none;
-    background: #212529;
-    border-radius: 4px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+.but-register {
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  background: #212529;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
-.but-det{
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid #212529;
-    background: none;
-    margin-right: 4px;
-    margin-left: 4px;
+.but-register:hover {
+  background-color: #495057;
+  color: #ffffff;
 }
-.but-det-other{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid #DEE2E6;
-    background: none;
-    margin-right: 4px;
-    margin-left: 4px;
+.but-det {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #212529;
+  background: white;
+  margin-right: 4px;
+  margin-left: 4px;
 }
-.but-det-disabled{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid #DEE2E6;
-    background: none;
-    margin-right: 4px;
-    margin-left: 4px;
+.but-det:not(:disabled):hover,
+.but-det-other:not(:disabled):hover {
+  color: #ffffff;
+  background: #212529;
 }
-.but-black{
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 100%;
-    border-radius: 4px;
-    border: none;
-    background: #212529;
-    margin-right: 4px;
-    margin-left: 4px;
-    color: white;
+.but-det-other {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background: none;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.but-det-disabled {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background: none;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.but-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  background: #212529;
+  margin-right: 4px;
+  margin-left: 4px;
+  color: white;
+}
+.but-black:hover {
+  background: #495057;
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  box-shadow: 0 0 0 3px #2125291a;
 }
